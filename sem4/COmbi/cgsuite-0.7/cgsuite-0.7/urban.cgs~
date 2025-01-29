@@ -1,0 +1,42 @@
+/////////////////////////////////
+WIPS:=proc(num)
+local A,B,T,k,i;
+option remember;
+T:=[0];
+A:=[];
+B:=[];
+k:=Mex(T);
+while num >= k do
+ Add(A,k);
+ Add(B,k+Length(A));
+ Add(T,k);
+ Add(T,k+Length(A));
+ k:=Mex(T);
+od;
+return {seq(WIPS(num-A[i]), i=1..Length(A), A[i] <= num)
+ | seq(WIPS(num-B[i]), i=1..Length(B), B[i] <= num) }
+end;
+/////////////////////////////////
+ULWS:=proc(num)
+T:=[0];
+A:=[];
+B:=[];
+k:=Mex(T);
+while num >= k do
+ Add(A,k);
+ Add(B,k+Length(A));
+ Add(T,k);
+ Add(T,k+Length(A));
+ k:=Mex(T);
+od;
+A>>out;
+B>>out;
+end;
+/////////////////////////////////////////
+h:={1|1/2};
+for i from 0 to 377 do
+g:=WIPS(i);
+if Rcf(g)==h then
+[i,g-h]>>out;
+fi;
+od;

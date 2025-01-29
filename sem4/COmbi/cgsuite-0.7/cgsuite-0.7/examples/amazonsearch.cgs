@@ -1,0 +1,68 @@
+/*************************************************************************
+  amazonsearch.cgs
+  Combinatorial Game Suite Example Script
+  
+  Finds all Amazons positions on a 2xn board with one Amazon of each
+  color whose values are numbers with denominator >= 4.
+  
+  The algorithm used is: Iterate over the possible positions of the
+  Amazons.  For each such position, recursively traverse the remaining
+  empty squares on the board.  Recurse twice for each such square, once
+  with the square empty and once with it filled.
+*************************************************************************/
+
+amazonsearch := proc(n)
+  local i, col, rrow, rcol, grid, recurse, table;
+
+  // Initialize the grid to empty squares
+  for col from 1 to n do
+    grid[1][col] := grid[2][col] := "."
+  od;
+  
+  table := CreateTable(2);  // Create a table with 2 columns
+  AddTableRow(table, "Position", "Value");
+  
+  // This recursive subprocedure assumes that the two Amazons are already
+  // placed on the grid.  The two cases are:
+  // col > n  : We've reached the end of the recursion.  Check the position
+  //            to see if it meets the criteria.
+  // otherwise: Recurse down, advancing to the next square.  Then if this
+  //            square is empty, try filling it and recursing again.
+  
+  recurse := proc(row, col) local g, nextrow, nextcol;
+    if col > n then
+      g := Amazons(grid);
+      if IsNumber(g) and Temperature(g) >= -1/4 then
+        AddTableRow(table, g, C(g));
+      fi
+    else
+      if row == 1 then nextrow := 2; nextcol := col;
+      else nextrow := 1; nextcol := col + 1; fi;
+      recurse(nextrow, nextcol);
+      if grid[row][col] == "." then
+        // This square is empty, so recurse again with it filled.
+        grid[row][col] := "x";
+        recurse(nextrow, nextcol);
+        grid[row][col] := ".";
+      fi
+    fi
+  end;
+
+  // We assume (by symmetry) that the Left amazon is always in the top row.
+  for col from 1 to (n+1).1/2 do
+    grid[1][col] := "L";
+    for rrow from 1 to 2 do
+      for rcol from 1 to n do
+        if not (rrow == 1 and rcol == col) then
+          grid[rrow][rcol] := "R";
+          recurse(1, 1);
+          grid[rrow][rcol] := ".";
+    fi od od;
+    grid[1][col] := ".";
+  od;
+  
+  return table;
+  
+end;
+
+amazonsearch(5)

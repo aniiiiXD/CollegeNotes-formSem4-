@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Worksheet Basics</title>
+</head>
+
+  <body bgcolor="#FFFFFF">
+    <h1>Worksheet Basics</h1>
+
+    <h3>Contents</h3>
+
+    <ul>
+      <li><a href="#EnteringGames">Entering Games</a></li>
+      <li><a href="#OperationsOnGames">Operations on Games</a></li>
+      <li><a href="#CanonicalForms">Types and Canonical Forms</a></li>
+      <li><a href="#Exercises">Exercises</a></li>
+  </ul>
+
+    <h3><a name="EnteringGames"></a>Entering Games</h3>
+
+    <p>You can type games directly into the worksheet.&nbsp; For example, click on the window 
+    labeled &quot;Worksheet 1&quot; and enter the following:</p>
+
+    <p><code>1/2vv*2</code></p>
+
+    <p>This represents the game 1/2 + double-down + *2.&nbsp; In general, you can enter combinations of numbers, ups and downs, and nimbers just as you'd expect.&nbsp;  The symbol <code>^</code> is used for up, <code>v</code> for down, and <code>*</code> for nimbers.&nbsp; To enter, say, 5.up, you could type either <code>^^^^^</code> or <code>^5</code>.<p>More complicated games can be entered using braces and slashes.&nbsp;  For example:</p>
+
+    <p><code>{2||1|0,*}</code></p>
+
+    <p>Expressions containing slashes <i>must</i> be enclosed in braces.&nbsp;  That is, to enter the game 1|0, you must type <code>{1|0}</code>.&nbsp;  Ambiguous expressions, such as <code>{1|0|-1}</code>, will be rejected; you'd need to enter <code>{1||0|-1}</code> or <code>{1|0||-1}</code> instead.</p>
+
+    <p>Combinatorial Game Suite recognizes a wide variety of common games and 
+    displays them using standard shorthand notation (such as +<sub>2</sub> for 
+    tiny-two).&nbsp; Here's a few to try (make sure to enter each on a separate 
+    line):</p>
+
+<p><code>{0||0|-2}<br>
+{0|v*}<br>
+{1,1*|-1,-1*}</code></p>
+
+    <p><code>{0||0|-2}</code> could also be entered as <code>Tiny(2)</code>.<p>
+    This tutorial contains many more examples of commands that you can enter 
+    into the worksheet.&nbsp; If you're interested in seeing the results, but 
+    you don't want to type everything in manually, you can copy-paste directly 
+    from this tutorial into the worksheet.&nbsp; Simply highlight the command 
+    with the mouse and select &quot;Copy&quot; from the Edit menu.&nbsp; Then click back 
+    on the Worksheet and select &quot;Paste&quot; from the Edit menu.&nbsp; Make sure to 
+    copy each command separately onto its own line of the Worksheet.<h3><a name="OperationsOnGames"></a>Operations on Games</h3>
+
+    <p>You can enter sums and products directly.  <code>.</code> is used for Norton product.  For example:</p>
+
+<p><code>{3|2} + {2|0}<br>
+4.{2||1|0}<br>
+1/8.^</code></p>
+
+    <p>There are nine <i>comparison operators</i>: <code>&nbsp;==&nbsp; &lt;=&nbsp; &gt;=&nbsp; &lt;&nbsp; &gt;&nbsp; !=&nbsp; &lt;|&nbsp; |&gt;&nbsp; &lt;&gt; </code>&nbsp;(Respectively: equals, less than or equal to, greater than or equal to, less than, greater than, not equal to, less than or confused with, greater than or confused with, confused with.)&nbsp; For example, try entering:</p>
+    
+<p><code>^^ > *<br>
+0 &lt;| ^*</code></p>
+
+    <p>Other common operations can be entered as method calls. Some examples to 
+    try:</p>
+
+<p><code>Mean({3||2|1})<br>
+Temperature({3||2|1})<br>
+Plot(Thermograph({3||2*|1}))<br>
+AtomicWeight({^^|vv})<br>
+Cool({3||2|1},1/2)<br>
+Freeze({3||2|1})<br>
+Heat(*,3)<br>
+Overheat(1/2,1,2)<br>
+Dissociate({3||2|1})<br>
+OrdinalSum(*7,1)</code></p>
+
+    <p>Many more are available as well; see the <a href="glossary.html">
+    glossary of methods</a> for a complete list.  Variable assignments are permitted, e.g.:</p>
+
+<p><code>G := {3||2|1}<br>
+Freeze(G)</code></p>
+
+    <p>And multiple statements can be strung together as a single command using semicolons, so the above could be rewritten on a single line as:</p>
+
+<p><code>G := {3||2|1}; Freeze(G)</code></p>
+
+    <p>Note that output is generated only for the last command.&nbsp; If a command ends with a semicolon, no output will be generated at all.</p>
+    
+    <h3><a name="CanonicalForms"></a>Types and Canonical Forms</h3>
+    
+    <p>Every object in Combinatorial Game Suite has a type associated with it.  Objects such as <code>^^</code>, <code>{3||2|1}</code>, etc., are canonical games, but CGSuite 
+    also supports games that are not in canonical form.&nbsp; In this way, <i>positions</i> in a game such as 
+    Domineering are distinguished from their canonical forms.</p>
+    
+    <p>For example, try entering the following:</p>
+    
+	<p><code>H := DomineeringRectangle(4,4)</code></p>
+
+    <p>This assigns to <code>H</code> the Domineering position represented by an 
+    empty 4x4 grid.&nbsp;  Note that Combinatorial Game Suite does not yet try to calculate the canonical form of <code>H</code>.  The canonical form of <code>H</code> can 
+    be obtained by explicit user request, using the <code>Solve</code> 
+    method:</p>
+
+	<p><code>Solve(H)</code></p>
+
+    <p>Alternatively, you can type <code>Canonicalize(H)</code> or use the shorthand <code>C(H)</code>.&nbsp; Of course we could have just typed:
+
+	<p><code>C(DomineeringRectangle(4,4))</code></p>
+
+    <p>Several other games are included as examples, including Amazons, Clobber, 
+    Fox and Geese, Konane, and Toads and Frogs.&nbsp; Typically, positions can 
+    be entered as a sequence of strings, separated by commas; each string 
+    corresponds to a single row in the grid.&nbsp; For example, try entering:</p>
+    
+    <p><code>A := Amazons(&quot;L..X.&quot;,&quot;R....&quot;)</code></p>
+    
+    <p>As always, <code>C(A)</code> calculates the canonical form of <code>A</code>.</p>
+    
+    <p>Entering actual game positions via the worksheet is somewhat cumbersome.&nbsp; A more 
+    intuitive interface is provided by the graphical explorer, which is 
+    described in the next section of this tutorial, <a href="explorer.html">
+    Using the Explorer</a>.</p>
+    
+    <h3><a name="Exercises"></a>Exercises</h3>
+    
+    <p>1. Let <code>G</code> be the game <code>{2||1|*}</code>.&nbsp; Calculate 
+    the canonical forms of <code>G + G</code> and <code>G + G + G + G</code>.&nbsp; 
+    Compute the mean and temperature of <code>G</code>.&nbsp; How does <code>G</code> 
+    compare with <code>1</code> and <code>1*</code>?</p>
+    
+    <p>2. Use the <code>LeftOptions</code> and <code>RightOptions</code> 
+    commands to determine the canonical form of <code>^5</code>.</p>
+    
+    <p>3. Let <code>H</code> be the canonical form of the 4x4 Domineering 
+    rectangle that we calculated above.&nbsp; Try comparing <code>H</code> with 
+    small positive and negative numbers.&nbsp; Make a conjecture as to whether 
+    or not <code>H</code> is an infinitesimal, and then use <code>IsInfinitesimal(H)</code> 
+    to verify it.&nbsp; How does <code>H</code> compare with various tinies?</p>
+    
+    <p>4. Heat <code>*6</code> by <code>1</code>.&nbsp; Note that only the first 
+    few lines of the canonical form are displayed.&nbsp; Click on the &quot;More ...&quot; 
+    button to display the full canonical form.</p>
+    
+    <p>5. Try to find constraints on positive numbers a, b, c (a &gt; b) such that <code>{a|b} + +<sub>c</sub> = {a+<sub>c</sub>|b+<sub>c</sub>}</code>.</p>
+    
+    <hr>
+    Continue on to <a href="explorer.html">Using the Explorer</a></body></html>

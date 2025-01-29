@@ -1,0 +1,348 @@
+Nov 27, 2014 4:34:14 PM org.cgsuite.ui.Kernel run
+INFO: Kernel started.
+Nov 27, 2014 4:34:15 PM org.cgsuite.ui.Kernel initCache
+INFO: Primary cache initialized.
+Nov 27, 2014 4:34:16 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:34:16 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Nov 27, 2014 4:34:39 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:34:39 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 619 ms.
+Nov 27, 2014 4:36:14 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:36:15 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 164 ms.
+Nov 27, 2014 4:36:29 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:36:29 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 73 ms.
+Nov 27, 2014 4:36:45 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:36:45 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 55 ms.
+Nov 27, 2014 4:37:02 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:37:02 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 29 ms.
+Nov 27, 2014 4:37:17 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:37:17 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 30 ms.
+Nov 27, 2014 4:37:39 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:37:39 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 33 ms.
+Nov 27, 2014 4:38:06 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:38:06 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Nov 27, 2014 4:38:22 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:38:22 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Nov 27, 2014 4:38:33 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:38:34 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 44 ms.
+Nov 27, 2014 4:38:37 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:38:37 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Nov 27, 2014 4:38:40 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:38:40 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Nov 27, 2014 4:39:10 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:39:10 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 25 ms.
+Nov 27, 2014 4:39:13 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:39:13 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Nov 27, 2014 4:39:15 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:39:15 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Nov 27, 2014 4:40:32 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:40:32 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Nov 27, 2014 4:42:18 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:42:18 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 30 ms.
+Nov 27, 2014 4:48:59 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:48:59 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 196 ms.
+Nov 27, 2014 4:49:29 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:49:29 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 289 ms.
+Nov 27, 2014 4:50:14 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Nov 27, 2014 4:50:15 PM org.cgsuite.ui.Kernel handleCalculation
+INFO: Calculation finished in 1385 ms.
+Dec 02, 2014 5:24:18 PM cgsuite
+INFO: Shutting down kernel.
+Sep 18, 2015 2:15:12 PM org.cgsuite.ui.Kernel run
+INFO: Kernel started.
+Sep 18, 2015 2:15:13 PM org.cgsuite.ui.Kernel initCache
+INFO: Primary cache initialized.
+Sep 18, 2015 2:15:13 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:15:13 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:17:20 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:17:20 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:18:05 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:18:05 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Sep 18, 2015 2:18:17 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:18:17 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 83 ms.
+Sep 18, 2015 2:18:27 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:18:27 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:20:20 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:20:20 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:20:37 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:20:37 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:20:49 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:20:49 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Sep 18, 2015 2:20:51 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:20:51 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:21:24 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:21:24 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 18, 2015 2:22:09 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:22:09 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:22:29 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:22:29 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:22:55 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:22:55 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 18, 2015 2:24:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:24:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:24:43 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:24:43 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:24:45 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:24:45 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 18, 2015 2:26:38 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:26:38 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:26:46 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:26:46 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:26:54 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:26:54 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 17 ms.
+Sep 18, 2015 2:26:56 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:26:56 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:27:24 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:27:24 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Sep 18, 2015 2:27:32 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:27:32 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 5 ms.
+Sep 18, 2015 2:28:14 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:28:14 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Sep 18, 2015 2:28:18 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:28:18 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Sep 18, 2015 2:28:19 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:28:19 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Sep 18, 2015 2:28:24 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:28:24 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:28:30 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:28:30 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:28:35 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:28:35 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:28:36 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:28:36 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Sep 18, 2015 2:29:30 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:29:30 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 18, 2015 2:29:33 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:29:33 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Sep 18, 2015 2:29:34 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 18, 2015 2:29:34 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 3 ms.
+Sep 20, 2015 1:41:28 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:41:28 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:41:37 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:41:37 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:41:39 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:41:39 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 4 ms.
+Sep 20, 2015 1:41:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:41:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 11 ms.
+Sep 20, 2015 1:42:22 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:42:22 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:46:14 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:46:14 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:46:30 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:46:30 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:46:52 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:46:52 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 2 ms.
+Sep 20, 2015 1:46:54 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:46:54 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Sep 20, 2015 1:51:40 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:51:40 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:51:40 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:51:40 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:51:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:51:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 20, 2015 1:52:00 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:52:00 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:52:01 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:52:01 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:52:01 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:52:01 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 1 ms.
+Sep 20, 2015 1:52:02 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:52:02 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 0 ms.
+Sep 20, 2015 1:55:32 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:55:48 PM org.cgsuite.ui.Kernel handleCalculation
+INFO: Calculation finished in 16004 ms.
+Sep 20, 2015 1:58:58 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:58:58 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 20, 2015 1:59:07 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:59:07 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 20, 2015 1:59:35 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:59:35 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 20, 2015 1:59:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:59:41 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 20, 2015 1:59:49 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 1:59:49 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 600 ms.
+Sep 20, 2015 2:00:34 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:00:34 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 150 ms.
+Sep 20, 2015 2:01:22 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:01:22 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 148 ms.
+Sep 20, 2015 2:01:52 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:01:52 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 20, 2015 2:02:10 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:02:10 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 610 ms.
+Sep 20, 2015 2:02:57 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:02:57 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 50 ms.
+Sep 20, 2015 2:03:25 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:03:25 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation finished in 142 ms.
+Sep 20, 2015 2:04:16 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:04:16 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Calculation aborted due to input error.
+Sep 20, 2015 2:04:58 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:05:00 PM org.cgsuite.ui.Kernel handleCalculation
+INFO: Calculation finished in 1554 ms.
+Sep 20, 2015 2:05:24 PM org.cgsuite.ui.Kernel handleCalculation
+FINE: Beginning calculation.
+Sep 20, 2015 2:05:26 PM org.cgsuite.ui.Kernel handleCalculation
+INFO: Calculation finished in 1490 ms.
+Sep 29, 2015 4:36:07 PM org.cgsuite.ui.Kernel$1 run
+INFO: Shutting down kernel.

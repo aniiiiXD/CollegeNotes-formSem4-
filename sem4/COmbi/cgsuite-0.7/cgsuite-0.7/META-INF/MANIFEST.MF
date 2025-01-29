@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 1.5.0_03-b07 (Sun Microsystems Inc.)
+Built-By: Aaron
+Main-Class: org.cgsuite.ui.Main
+
